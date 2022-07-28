@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/CardName"
+        android:layout_width="261dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginRight="118dp"
+        android:layout_marginBottom="516dp"
+        android:text="MIT Mysore"
+        android:textSize="36sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="157dp"
+        android:layout_height="110dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="484dp"
+        app:srcCompat="@drawable/mitlogo" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="466dp"
+        android:background="#4444" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="221dp"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="142dp"
+        android:layout_marginLeft="142dp"
+        android:layout_marginTop="202dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:layout_marginBottom="369dp"
+        android:text="@string/chitra_c"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Designation"
+        android:layout_width="326dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="77dp"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="277dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="286dp"
+        android:text="@string/assistant_professor"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Branch"
+        android:layout_width="404dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="358dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="206dp"
+        android:text="@string/information_science_and_engineering"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="364dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="135dp"
+        android:text="@string/emailid_chitra_ise_mitmysore_in"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/Phoneno"
+        android:layout_width="353dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="503dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="55dp"
+        android:text="Phone Number: 9845454545"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+
+
+package com.example.lab1program;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+    }
+}
